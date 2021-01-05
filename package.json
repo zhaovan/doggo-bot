@@ -1,0 +1,20 @@
+{
+  "name": "doggo-bot",
+  "version": "1.0.0",
+  "description": "A simple slackbot that allows users to query through unsplash api for images in slack",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Zhao",
+  "license": "ISC",
+  "homepage": "https://github.com/BolajiAyodeji/slackbot#readme",
+  "dependencies": {
+    "@slack/bolt": "^2.5.0",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6",
+    "slackbots": "^1.2.0"
+  }
+}
